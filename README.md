@@ -6,8 +6,8 @@ Skypeのmain.dbを読んで、いろんな情報を解析するツール(らし�
 
 ## 必要なもの
 * main.db (オリジナルをコピーして使うことを推奨します)
-    * Windows: C:\Users\&lt;Windowsのユーザー名&gt;\AppData\Roaming\Skype\&lt;SkypeName&gt;\main.db
-    * Linux: ~/.Skype/&lt;SkypeName&gt;/main.db
+    * Windows: C:/Users/(Windowsのユーザー名)/AppData/Roaming/Skype/(SkypeName)/main.db
+    * Linux: ~/.Skype/(SkypeName)/main.db
 
 ## 使い方
 例: スクリプトと同じディレクトリに main.db が存在する場合
