@@ -6,13 +6,13 @@ Skypeのmain.dbを読んで、いろんな情報を解析するツール(らし�
 
 ## 必要なもの
 * main.db (オリジナルをコピーして使うことを推奨します)
-    * Windows: C:\Users\<Windowsのユーザー名>\AppData\Roaming\Skype\<SkypeName>\main.db
-    * Linux: ~/.Skype/<SkypeName>/main.db
+    * Windows: C:\Users\&lt;Windowsのユーザー名&gt;\AppData\Roaming\Skype\&lt;SkypeName&gt;\main.db
+    * Linux: ~/.Skype/&lt;SkypeName&gt;/main.db
 
 ## 使い方
 例: スクリプトと同じディレクトリに main.db が存在する場合
 
-    $ search.rb main.db
+    $ ruby search.rb main.db
 
 起動後はスクリプトがガイドしますので、画面の指示に従って入力してください。
 コマンドラインオプションも用意する予定です。
